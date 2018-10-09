@@ -2324,6 +2324,9 @@ body {
     position: absolute;
     top: 30px;
     width: 100%; }
+    @media screen and (max-width: 736px) {
+      #header .logo-graphic {
+        visibility: hidden !important; } }
   #header.reveal {
     -moz-animation: reveal-header 0.5s ease;
     -webkit-animation: reveal-header 0.5s ease;
