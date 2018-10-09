@@ -1,0 +1,16 @@
+{
+  "name": "mad-landing",
+  "version": "1.0.0",
+  "description": "The landing page for Megas Archon Development.",
+  "main": "index.js",
+  "repository": "https://gitlab.com/megasarchon/mad-landing",
+  "author": "Shea Rogers <srogers@madscientist.solutions>",
+  "license": "PROPRIETARY",
+  "private": true,
+  "dependencies": {
+    "node-sass": "^4.9.3"
+  },
+  "scripts": {
+    "serve": "node-sass src/sass -o public/css && cd public && lite-server public"
+  }
+}
