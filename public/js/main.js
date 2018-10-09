@@ -75,7 +75,7 @@
 			$banner.scrollex({
 				bottom:		$header.outerHeight() - 64,
 				terminate:	function() { $header.removeClass('alt'); $body.removeClass('header-alt'); },
-				enter:		function() { $header.addClass('alt'); $body.addClass('header-alt'); },
+				enter:		function() { $header.addClass('alt'); $body.addClass('header-alt'); $header.removeClass('reveal');},
 				leave:		function() { $header.removeClass('alt'); $body.removeClass('header-alt'); $header.addClass('reveal'); }
 			});
 
